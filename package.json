@@ -4,7 +4,7 @@
   "description": "Project of Spellon",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass assets/scss/main.scss css/style.css --watch"
+    "compile:sass": "sass --watch assets/scss/main.scss:css/style.css"
   },
   "repository": {
     "type": "git",
