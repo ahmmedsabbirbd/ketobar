@@ -2,6 +2,18 @@
 
 .footer {
 
+    @media screen  and (max-width: 1199px) { 
+        padding-top: 110px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        padding-top: 90px;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        padding-top: 60px;
+    }
+
     &__widget {
 
         &-menu {
@@ -9,6 +21,12 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+
+            @media screen  and (max-width: 480px) { 
+                align-items: center;
+                flex-direction: column;
+            }
+        
 
             ul {
                 gap: 15px;
@@ -35,10 +53,28 @@
                         color: #E2E2E2;
                         font-family: $mon;
                         line-height: 26px;
+                        position: relative;
                         text-decoration: none;
                         
+                        &:before {
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            width: 100%;
+                            height: 3px;
+                            content: '';
+                            position: absolute;
+                            background-color: #E2E2E2;
+                            @include transform(scaleX(0));
+                            @include transition(all .3s ease);
+                        }
+                        
                         &:hover, &:focus {
-                            @include transform(translate(0, -5px));
+                            @include transform(translate(0, -3px));
+
+                            &:before {
+                                @include transform(scaleX(1));
+                            }
                         }
                     }
                 }
@@ -47,6 +83,19 @@
 
         &-info {
             max-width: 228px;
+
+            @media screen  and (max-width: 767px) { 
+                max-width: 100%;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .logo, .description {
+                
+                @media screen  and (max-width: 767px) { 
+                    margin-bottom: 20px;
+                }
+            }
         }
     }
 

@@ -198,21 +198,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .container {
 	width: 100%;
-	max-width: 1220px;
-	padding-left: 20px;
-	padding-right: 20px;
+	max-width: 1200px; 
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-}
-
-.row {
-	margin-left: -20px;
-	margin-right: -20px;
-
-	>[class*="col"] {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
 }
 
 .btn {
