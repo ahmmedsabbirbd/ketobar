@@ -1,6 +1,6 @@
 /*** 1. Theme default css */
 body {
-    color: $dark_white;
+    color: $black;
     background: #F7F4F0;
     font: 400 18px/30px $pop;
 }
@@ -184,7 +184,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     padding: 0;
     color: $black;
     font-weight: 700;
-    font-family: $arse;
+    font-family: $pop;
     text-transform: capitalize;
 
     &.ls-none {
@@ -221,7 +221,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: #222222;
     font-weight: 700;
     line-height: 29px;
-    font-family: $but;
+    font-family: $pop;
     position: relative;
     text-transform: capitalize;
     text-decoration: underline;
@@ -276,8 +276,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     }
 }
 
-.font-but { font-family: $but !important; }
-.font-arse { font-family: $arse !important; }
 .font-weight-500 { font-weight: 500 !important ;}
 .font-weight-600 { font-weight: 600 !important ;}
 
