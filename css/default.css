@@ -1269,9 +1269,11 @@
 .black-bg {
 	background-color: #000;
 }
-
 .primary-bg {
 	background-color: #955223;
+}
+.dark-whit-bg {
+	background-color: #D9D9D9;
 }
 
 /* Color */

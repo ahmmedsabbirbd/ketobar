@@ -1,0 +1,176 @@
+/** Keto-bar  **/
+.protein {
+
+    @media screen  and (max-width: 1199px) { 
+        padding-top: 110px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        padding: 90px 0;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        padding: 60px 0;
+    }
+
+    &__item {
+        max-width: 975px;
+        margin-bottom: 150px;
+
+        @media screen  and (max-width: 1366px) { 
+            margin-bottom: 120px;
+        }
+
+        @media screen  and (max-width: 991px) { 
+            margin-bottom: 90px;
+        }
+
+        @media screen  and (max-width: 767px) { 
+            margin-bottom: 60px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &:nth-child(2) .protein__item-media:after { content: "02"  };
+        &:nth-child(3) .protein__item-media:after { content: "03"  };
+        &:nth-child(4) .protein__item-media:after { content: "04"  };
+        &:nth-child(5) .protein__item-media:after { content: "05"  };
+        &:nth-child(6) .protein__item-media:after { content: "06"  };
+        &:nth-child(7) .protein__item-media:after { content: "07"  };
+        &:nth-child(8) .protein__item-media:after { content: "08"  };
+        &:nth-child(9) .protein__item-media:after { content: "09"  };
+        &:nth-child(10) .protein__item-media:after { content: "10"  };
+        &:nth-child(11) .protein__item-media:after { content: "11"  };
+        &:nth-child(12) .protein__item-media:after { content: "12"  };
+        &:nth-child(13) .protein__item-media:after { content: "13"  };
+        &:nth-child(14) .protein__item-media:after { content: "14"  };
+        &:nth-child(15) .protein__item-media:after { content: "15"  };
+        &:nth-child(16) .protein__item-media:after { content: "16"  };
+        &:nth-child(17) .protein__item-media:after { content: "17"  };
+        &:nth-child(18) .protein__item-media:after { content: "18"  };
+        &:nth-child(19) .protein__item-media:after { content: "19"  };
+        &:nth-child(20) .protein__item-media:after { content: "20"  };
+        &:nth-child(21) .protein__item-media:after { content: "21"  };
+        &:nth-child(22) .protein__item-media:after { content: "22"  };
+        &:nth-child(23) .protein__item-media:after { content: "23"  };
+        &:nth-child(24) .protein__item-media:after { content: "24"  };
+        &:nth-child(25) .protein__item-media:after { content: "25"  };
+        
+        &.style-2 {
+
+            .row {
+                flex-direction: row-reverse;
+
+                .protein__item {
+
+                    &-content {
+                        margin-left: inherit;
+                    }
+
+                    &-media {
+                        margin-left: auto;
+    
+                        &:after {
+                            left: -107px;
+                            right: inherit;
+
+                            @media screen  and (max-width: 1199px) {  
+                                left: -90px;
+                            }
+
+                            @media screen  and (max-width: 1000px) {  
+                                left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-content {
+            max-width: 417px;
+            margin-left: auto;
+
+            @media screen  and (max-width: 575px) {  
+                max-width: 100%;
+            }
+
+            .title {
+                
+                @media screen  and (max-width: 767px) {  
+                    margin-bottom: 15px;
+                }
+
+                span {
+                    letter-spacing: 0.04em;
+                }
+            }
+
+            .description {
+
+                @media screen  and (max-width: 767px) {  
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: #646464;
+                    letter-spacing: normal;
+
+                    + p {
+                        margin-top: 25px;
+
+                        @media screen  and (max-width: 767px) {  
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-media {
+            max-width: 440px;
+            position: relative;
+
+            @media screen  and (max-width: 575px) {  
+                max-width: 100%;
+                margin-bottom: 30px;
+            }
+
+            &:after {
+                top: -15px;
+                z-index: 1;
+                content: "01"; 
+                right: -66px;
+                opacity: 0.7;
+                font-weight: 600;
+                position: absolute;
+                font-size: 200px;
+                color: #C9C9C9;
+                line-height: 152px;
+
+                @media screen  and (max-width: 1199px) {  
+                    right: -52px; 
+                    font-size: 188px; 
+                    line-height: 145px;
+                }
+
+                @media screen  and (max-width: 1000px) {  
+                    right: 0;
+                }
+
+                @media screen  and (max-width: 991px) {  
+                    font-size: 153px;
+                    line-height: 100px;
+                }
+                
+                @media screen  and (max-width: 767px) {  
+                    top: -25px;
+                    font-size: 120px;
+                    line-height: 82px;
+                }
+            }
+        }
+    }
+
+}

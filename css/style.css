@@ -473,6 +473,151 @@ p {
     .keto-bar__content .media {
       margin-bottom: 30px; } }
 
+/** Keto-bar  **/
+@media screen and (max-width: 1199px) {
+  .protein {
+    padding-top: 110px; } }
+@media screen and (max-width: 991px) {
+  .protein {
+    padding: 90px 0; } }
+@media screen and (max-width: 767px) {
+  .protein {
+    padding: 60px 0; } }
+.protein__item {
+  max-width: 975px;
+  margin-bottom: 150px; }
+  @media screen and (max-width: 1366px) {
+    .protein__item {
+      margin-bottom: 120px; } }
+  @media screen and (max-width: 991px) {
+    .protein__item {
+      margin-bottom: 90px; } }
+  @media screen and (max-width: 767px) {
+    .protein__item {
+      margin-bottom: 60px; } }
+  .protein__item:last-child {
+    margin-bottom: 0; }
+  .protein__item:nth-child(2) .protein__item-media:after {
+    content: "02"; }
+  .protein__item:nth-child(3) .protein__item-media:after {
+    content: "03"; }
+  .protein__item:nth-child(4) .protein__item-media:after {
+    content: "04"; }
+  .protein__item:nth-child(5) .protein__item-media:after {
+    content: "05"; }
+  .protein__item:nth-child(6) .protein__item-media:after {
+    content: "06"; }
+  .protein__item:nth-child(7) .protein__item-media:after {
+    content: "07"; }
+  .protein__item:nth-child(8) .protein__item-media:after {
+    content: "08"; }
+  .protein__item:nth-child(9) .protein__item-media:after {
+    content: "09"; }
+  .protein__item:nth-child(10) .protein__item-media:after {
+    content: "10"; }
+  .protein__item:nth-child(11) .protein__item-media:after {
+    content: "11"; }
+  .protein__item:nth-child(12) .protein__item-media:after {
+    content: "12"; }
+  .protein__item:nth-child(13) .protein__item-media:after {
+    content: "13"; }
+  .protein__item:nth-child(14) .protein__item-media:after {
+    content: "14"; }
+  .protein__item:nth-child(15) .protein__item-media:after {
+    content: "15"; }
+  .protein__item:nth-child(16) .protein__item-media:after {
+    content: "16"; }
+  .protein__item:nth-child(17) .protein__item-media:after {
+    content: "17"; }
+  .protein__item:nth-child(18) .protein__item-media:after {
+    content: "18"; }
+  .protein__item:nth-child(19) .protein__item-media:after {
+    content: "19"; }
+  .protein__item:nth-child(20) .protein__item-media:after {
+    content: "20"; }
+  .protein__item:nth-child(21) .protein__item-media:after {
+    content: "21"; }
+  .protein__item:nth-child(22) .protein__item-media:after {
+    content: "22"; }
+  .protein__item:nth-child(23) .protein__item-media:after {
+    content: "23"; }
+  .protein__item:nth-child(24) .protein__item-media:after {
+    content: "24"; }
+  .protein__item:nth-child(25) .protein__item-media:after {
+    content: "25"; }
+  .protein__item.style-2 .row {
+    flex-direction: row-reverse; }
+    .protein__item.style-2 .row .protein__item-content {
+      margin-left: inherit; }
+    .protein__item.style-2 .row .protein__item-media {
+      margin-left: auto; }
+      .protein__item.style-2 .row .protein__item-media:after {
+        left: -107px;
+        right: inherit; }
+        @media screen and (max-width: 1199px) {
+          .protein__item.style-2 .row .protein__item-media:after {
+            left: -90px; } }
+        @media screen and (max-width: 1000px) {
+          .protein__item.style-2 .row .protein__item-media:after {
+            left: 0; } }
+  .protein__item-content {
+    max-width: 417px;
+    margin-left: auto; }
+    @media screen and (max-width: 575px) {
+      .protein__item-content {
+        max-width: 100%; } }
+    @media screen and (max-width: 767px) {
+      .protein__item-content .title {
+        margin-bottom: 15px; } }
+    .protein__item-content .title span {
+      letter-spacing: 0.04em; }
+    @media screen and (max-width: 767px) {
+      .protein__item-content .description {
+        margin-bottom: 15px; } }
+    .protein__item-content .description p {
+      color: #646464;
+      letter-spacing: normal; }
+      .protein__item-content .description p + p {
+        margin-top: 25px; }
+        @media screen and (max-width: 767px) {
+          .protein__item-content .description p + p {
+            margin-bottom: 15px; } }
+  .protein__item-media {
+    max-width: 440px;
+    position: relative; }
+    @media screen and (max-width: 575px) {
+      .protein__item-media {
+        max-width: 100%;
+        margin-bottom: 30px; } }
+    .protein__item-media:after {
+      top: -15px;
+      z-index: 1;
+      content: "01";
+      right: -66px;
+      opacity: 0.7;
+      font-weight: 600;
+      position: absolute;
+      font-size: 200px;
+      color: #C9C9C9;
+      line-height: 152px; }
+      @media screen and (max-width: 1199px) {
+        .protein__item-media:after {
+          right: -52px;
+          font-size: 188px;
+          line-height: 145px; } }
+      @media screen and (max-width: 1000px) {
+        .protein__item-media:after {
+          right: 0; } }
+      @media screen and (max-width: 991px) {
+        .protein__item-media:after {
+          font-size: 153px;
+          line-height: 100px; } }
+      @media screen and (max-width: 767px) {
+        .protein__item-media:after {
+          top: -25px;
+          font-size: 120px;
+          line-height: 82px; } }
+
 /** footer-area  **/
 @media screen and (max-width: 1199px) {
   .footer {
