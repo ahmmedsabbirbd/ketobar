@@ -1264,15 +1264,22 @@
 
 /* Background Color */
 .white-bg {
-	background: #fff;
+	background-color: #fff;
 }
 .black-bg {
-	background: #000;
+	background-color: #000;
+}
+
+.primary-bg {
+	background-color: #955223;
 }
 
 /* Color */
 .white {
 	color: #fff;
+}
+.dark-white {
+	color: #E2E2E2;
 }
 .black {
 	color: #000;
