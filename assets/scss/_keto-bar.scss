@@ -1,0 +1,63 @@
+/** Keto-bar  **/
+.keto-bar {
+    background-color: #9B5D31;
+
+    @media screen  and (max-width: 1199px) { 
+        padding-top: 110px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        padding: 90px 0;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        padding: 60px 0;
+    }
+
+    &__content {
+
+        &-text {
+            max-width: 693px;
+
+            @media screen  and (max-width: 1199px) { 
+                margin-bottom: 60px;
+            }
+            
+            @media screen  and (max-width: 991px) {  
+                margin-bottom: 50px;
+            }
+            
+            @media screen  and (max-width: 767px) {  
+                margin-bottom: 40px;
+            }
+
+            .title {
+                
+                @media screen  and (max-width: 767px) {  
+                    margin-bottom: 10px;
+                }
+            }
+            
+            p {
+                color: #E2E2E2;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        
+        .media {
+
+            @media screen  and (max-width: 1199px) { 
+                margin-bottom: 55px;
+            }
+            
+            @media screen  and (max-width: 991px) {  
+                margin-bottom: 45px;
+            }
+            
+            @media screen  and (max-width: 767px) {  
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

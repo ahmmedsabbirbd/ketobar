@@ -77,13 +77,17 @@ h1, .h1 { font-size: 72px; line-height: 82px;
     @media screen  and (max-width: 767px) { font-size: 42px; line-height: 52px; }
     @media screen  and (max-width: 575px) { font-size: 36px; line-height: 46px; }
 }
-h2, .h2 { font-size: 64px; line-height: 74px;
+h2, .h2 { font-size: 64px; line-height: 74px; letter-spacing: 0.04em;
     @media screen  and (max-width: 1199px) { font-size: 50px; line-height: 60px; }
     @media screen  and (max-width: 991px) { font-size: 42px; line-height: 52px; }
     @media screen  and (max-width: 767px) { font-size: 36px; line-height: 46px; }
     @media screen  and (max-width: 575px) { font-size: 32px; line-height: 42px; }
+
+    span {
+        letter-spacing: 0.01em;
+    }
 }
-h3, .h3 { font-size: 50px; line-height: 60px; 
+h3, .h3 { font-size: 50px; line-height: 60px; letter-spacing: -0.03em;
     @media screen  and (max-width: 1199px) { font-size: 42px; line-height: 52px; }
     @media screen  and (max-width: 991px) { font-size: 36px; line-height: 46px; }
     @media screen  and (max-width: 767px) { font-size: 30px; line-height: 40px; }
@@ -110,6 +114,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
     a {
         color: inherit;
+    }
+
+    span {
+        display: block;
+        color: #FB9B06;
+        font-weight: 300;
     }
 }
 
@@ -187,4 +197,8 @@ select, textarea {
 	&:hover, &:focus {
 		outline: 0;
 	}
+}
+
+p {
+    letter-spacing: 0.01em;
 }

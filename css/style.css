@@ -126,7 +126,8 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 64px;
-  line-height: 74px; }
+  line-height: 74px;
+  letter-spacing: 0.04em; }
   @media screen and (max-width: 1199px) {
     h2, .h2 {
       font-size: 50px;
@@ -143,10 +144,13 @@ h2, .h2 {
     h2, .h2 {
       font-size: 32px;
       line-height: 42px; } }
+  h2 span, .h2 span {
+    letter-spacing: 0.01em; }
 
 h3, .h3 {
   font-size: 50px;
-  line-height: 60px; }
+  line-height: 60px;
+  letter-spacing: -0.03em; }
   @media screen and (max-width: 1199px) {
     h3, .h3 {
       font-size: 42px;
@@ -205,6 +209,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   text-transform: capitalize; }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a {
     color: inherit; }
+  h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, h5 span, .h5 span, h6 span, .h6 span {
+    display: block;
+    color: #FB9B06;
+    font-weight: 300; }
 
 .container {
   width: 100%;
@@ -381,6 +389,9 @@ select, textarea {
   select:focus, textarea:hover, textarea:focus {
     outline: 0; }
 
+p {
+  letter-spacing: 0.01em; }
+
 .header-transparent {
   position: absolute;
   top: 0;
@@ -421,6 +432,46 @@ select, textarea {
   background: red;
   height: 3px;
   margin-top: 3px; }
+
+/** Keto-bar  **/
+.keto-bar {
+  background-color: #9B5D31; }
+  @media screen and (max-width: 1199px) {
+    .keto-bar {
+      padding-top: 110px; } }
+  @media screen and (max-width: 991px) {
+    .keto-bar {
+      padding: 90px 0; } }
+  @media screen and (max-width: 767px) {
+    .keto-bar {
+      padding: 60px 0; } }
+  .keto-bar__content-text {
+    max-width: 693px; }
+    @media screen and (max-width: 1199px) {
+      .keto-bar__content-text {
+        margin-bottom: 60px; } }
+    @media screen and (max-width: 991px) {
+      .keto-bar__content-text {
+        margin-bottom: 50px; } }
+    @media screen and (max-width: 767px) {
+      .keto-bar__content-text {
+        margin-bottom: 40px; } }
+    @media screen and (max-width: 767px) {
+      .keto-bar__content-text .title {
+        margin-bottom: 10px; } }
+    .keto-bar__content-text p {
+      color: #E2E2E2;
+      font-size: 18px;
+      line-height: 28px; }
+  @media screen and (max-width: 1199px) {
+    .keto-bar__content .media {
+      margin-bottom: 55px; } }
+  @media screen and (max-width: 991px) {
+    .keto-bar__content .media {
+      margin-bottom: 45px; } }
+  @media screen and (max-width: 767px) {
+    .keto-bar__content .media {
+      margin-bottom: 30px; } }
 
 /** footer-area  **/
 @media screen and (max-width: 1199px) {
