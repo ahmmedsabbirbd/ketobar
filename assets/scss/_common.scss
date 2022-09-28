@@ -1,0 +1,313 @@
+/*** 1. Theme default css */
+body {
+    color: $dark_white;
+    background: #F7F4F0;
+    font: 400 18px/30px $pop;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a, .button,button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+button{cursor: pointer}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: #FBBA42;
+    text-decoration: none;
+}
+a,
+button {
+    color: #1696e7;
+    outline: medium none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none
+}
+p {
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+    ::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+    }
+*::placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.theme-bg{
+    background-color:  #F5FAFF;;
+}
+
+.theme-bg-dark{
+    background-color:  #133460;;
+}
+
+h1, .h1 { font-size: 80px; line-height: 90px; 
+
+    @media screen  and (max-width: 1199px) { 
+        font-size: 70px; line-height: 80px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        font-size: 50px; line-height: 60px;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        font-size: 42px; line-height: 52px; ;
+    }
+}
+h2, .h2 { font-size: 60px; line-height: 70px;
+    
+    @media screen  and (max-width: 1199px) { 
+        font-size: 50px; line-height: 60px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        font-size: 42px; line-height: 52px; ;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        font-size: 36px; line-height: 46px; letter-spacing: 0.025em;
+    }
+}
+h3, .h3 { font-size: 49px; line-height: 59px; letter-spacing: 0.035em; 
+
+    @media screen  and (max-width: 1199px) { 
+        font-size: 42px; line-height: 52px; letter-spacing: 0.030em;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        font-size: 36px; line-height: 46px; letter-spacing: 0.025em;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        font-size: 30px; line-height: 40px;
+    }
+}
+h4, .h4 { font-size: 40px; line-height: 50px; 
+    
+    @media screen  and (max-width: 1199px) { 
+        font-size: 36px; line-height: 46px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        font-size: 30px; line-height: 40px;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        font-size: 25px; line-height: 35px;
+    }
+}
+h5, .h5 { font-size: 36px; line-height: 46px; 
+
+    @media screen  and (max-width: 1199px) { 
+        font-size: 30px; line-height: 40px;
+    }
+    
+    @media screen  and (max-width: 991px) { 
+        font-size: 25px; line-height: 35px;
+    }
+
+    @media screen  and (max-width: 767px) { 
+        font-size: 22px; line-height: 32px;
+    }
+}
+h6, .h6 { font-size: 34px; line-height: 44px; 
+    
+    @media screen  and (max-width: 1199px) { 
+        font-size: 25px; line-height: 35px;
+    }
+
+    @media screen  and (max-width: 991px) { 
+        font-size: 20px; line-height: 30px;
+    }
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin: 0;
+    padding: 0;
+    color: $black;
+    font-weight: 700;
+    font-family: $arse;
+    text-transform: capitalize;
+
+    &.ls-none {
+        letter-spacing: normal;
+    }
+
+    a {
+        color: inherit;
+    }
+}
+
+.container {
+	width: 100%;
+	max-width: 1220px;
+	padding-left: 20px;
+	padding-right: 20px;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.row {
+	margin-left: -20px;
+	margin-right: -20px;
+
+	>[class*="col"] {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.btn {
+    z-index: 1;
+    font-size: 24px;
+    color: #222222;
+    font-weight: 700;
+    line-height: 29px;
+    font-family: $but;
+    position: relative;
+    text-transform: capitalize;
+    text-decoration: underline;
+    padding: 9.5px 0 9.5px 36px;
+    @include border-radius(5px);
+    @include transition(all .3s ease);
+    
+    display: inline-flex;
+    align-items: center;
+
+    @media screen and (max-width: 991px) {
+        font-size: 22px; 
+        line-height: 27px; 
+        padding: 7px 0 7px 30px; 
+    }
+    
+    &:after {
+        top: 0;
+        left: 0;
+        content: "";
+        width: 48px;
+        z-index: -1;
+        height: 100%;
+        position: absolute;
+        background-color: $primary;
+        @include transition(all .3s ease);
+
+        @media screen and (max-width: 991px) { 
+            left: 0;
+            width: 42px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        max-width: 60px;
+        height: max-content;
+        padding-right: 30px;
+
+        @media screen and (max-width: 991px) { 
+            padding-right: 25px;
+        }
+    }
+
+    &:hover, &:focus {
+        box-shadow: none;
+        color: $primary;
+
+        &:after {
+            left: 26px;
+        }
+    }
+}
+
+.font-but { font-family: $but !important; }
+.font-arse { font-family: $arse !important; }
+.font-weight-500 { font-weight: 500 !important ;}
+.font-weight-600 { font-weight: 600 !important ;}
+
+input[type="text"]:not(.select2-input),
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="file"],
+select, textarea {
+	@include appearance;
+	border: 0 !important;
+	width: 100% !important;
+	color: $black !important;
+    box-shadow: none !important;
+	font-size: 18px !important;
+	font-weight: 400 !important;
+	box-shadow: none !important;
+	line-height: 30px !important; 
+	background: #F7F4F0 !important;
+	padding: 9px 16px !important;
+	@include transition(all 0.3s ease);
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    @include placeholderWithlettertraking($black, 18px, 30px, 0, 400);
+
+	&:hover, &:focus {
+		outline: 0;
+	}
+}

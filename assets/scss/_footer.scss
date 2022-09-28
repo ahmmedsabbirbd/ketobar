@@ -1,0 +1,22 @@
+/** footer-area  **/
+.footer-area{
+    overflow:hidden;
+    .copy-right-info{
+        .copy-right{
+            p{
+                color: #bdbdbd;
+            }
+        }
+    }
+}
+
+.social-profile a {
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	color: #bdbdbd;
+}

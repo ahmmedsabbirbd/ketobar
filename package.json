@@ -1,0 +1,22 @@
+{
+  "name": "reco",
+  "version": "1.0.0",
+  "description": "Project of Spellon",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass assets/scss/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmmedsabbirbd/ketobar.git"
+  },
+  "author": "spellon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmmedsabbirbd/ketobar/issues"
+  },
+  "homepage": "https://github.com/ahmmedsabbirbd/ketobar#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

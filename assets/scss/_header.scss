@@ -1,0 +1,54 @@
+.header-transparent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 999;;
+}
+
+.header-area{
+    .main-menu{
+        ul{
+            li{
+                float: left;
+                a{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-size: 18px;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: #046CF8;
+                    padding-left: 25px;
+                    &:hover {
+                        color: #046CF8;
+                    }
+                }
+            }
+        }
+    }
+    .theme-btn{
+        padding-left: 50px;
+        a{
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 18px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: #046CF8;
+            border: 1px solid #046CF8;
+            padding: 12px 41.17px;
+            border-radius: 30px;
+            i{
+                color: #fff;
+            }
+        }
+    }
+}
+
+/** mobile menu **/
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: red;
+	height: 3px;
+	margin-top: 3px;
+}
