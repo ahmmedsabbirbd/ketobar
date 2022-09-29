@@ -1,13 +1,30 @@
-.header-transparent{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, .5);
-    z-index: 999;;
+.scroll-down {
+
+	.header {
+
+		&:not(.sticky) {
+	    	@include transform(translate3d(0, -100%, 0));
+		}
+	}
 }
 
 .header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1030;
+	position: fixed;
+    background-color: #955223;
+    @include transition(all .3s ease);
+
+    &.transparent {
+        background-color: transparent;
+    }
+
+    &.stop {
+        padding: 20px 0;
+        background-color: #955223;
+    }
 
     .main-menu {
         display: flex;
