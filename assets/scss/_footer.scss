@@ -1,18 +1,5 @@
 /** footer-area  **/
-
 .footer {
-
-    @media screen  and (max-width: 1199px) { 
-        padding-top: 110px;
-    }
-
-    @media screen  and (max-width: 991px) { 
-        padding-top: 90px;
-    }
-
-    @media screen  and (max-width: 767px) { 
-        padding-top: 60px;
-    }
 
     .row >[class*="col-6"] {
 
@@ -73,8 +60,7 @@
                             @include transition(all .3s ease);
                         }
                         
-                        &:hover, &:focus {
-                            @include transform(translate(0, -3px));
+                        &:hover, &:focus { 
 
                             &:before {
                                 @include transform(scaleX(1));
@@ -101,8 +87,23 @@
         }
     }
 
+    &__top {
+        border-bottom: 1px solid rgba(231, 231, 231, 0.5);
+
+        @media screen  and (max-width: 1199px) { 
+            margin-top: 110px;
+        }
+        
+        @media screen  and (max-width: 991px) { 
+            margin-top: 90px;
+        }
+        
+        @media screen  and (max-width: 767px) { 
+            margin-top: 60px;
+        }
+    }
+
     &__bottom {
-        border-top: 1px solid rgba(231, 231, 231, 0.5);
 
         &-copy-right {
 
@@ -185,7 +186,7 @@
                     }
                 }
 
-                input[type="submit"] {
+                input[type="submit"], .btn {
                     right: 6px;
                     position: absolute;
                     top: calc(50% - 25px);
