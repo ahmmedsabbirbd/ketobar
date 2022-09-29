@@ -2,7 +2,6 @@
 
 	jQuery(document).ready(function(){
 
-
 		/*** Sticky header */
 		$(window).scroll(function(){
 			if($("body").scrollTop() > 0 || $("html").scrollTop() > 0) {
@@ -46,6 +45,13 @@
 		$(".hamburger-menu").on("click", function () {
 			$(".side-info").toggleClass("info-open");
 			$(".offcanvas-overlay").toggleClass("overlay-open");
+		});
+
+		/*** AOS */
+		AOS.init({
+			once: true,
+			offset: -300,
+			duration: 900,
 		});
 
 		/*** slick slider  */
