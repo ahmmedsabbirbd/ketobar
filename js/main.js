@@ -2,6 +2,13 @@
 
 	jQuery(document).ready(function(){
 
+
+		/*** mobile menu  */
+		$(".hamburger-menu").on("click", function () {
+			$(".side-info").toggleClass("info-open");
+			$(".offcanvas-overlay").toggleClass("overlay-open");
+		});
+
 		/*** slick slider  */
 		$('.client-slider').slick();
 

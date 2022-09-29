@@ -26,17 +26,17 @@
     <header  class="header py-35"> 
         <div class="container"> 
             <div class="row align-items-center">
-                <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                <div class="col-lg-2 col-sm-3 col-5">
                     <div class="logo">
-                        <a class="standard-logo" href="#">
+                        <a href="#">
                             <img src="images/logo/logo.png" alt="logo" />
                         </a>
                     </div>
                 </div>
 
-                <div class="col-xl-10 col-lg-10 col-md-9 col-6">
-                    <div class="header-right-info float-end d-md-flex pl-30"> 
-                        <div class="header-search d-none d-xl-block text-right">
+                <div class="col-lg-10 col-sm-9 col-7">
+                    <div class="header-right-info float-end d-flex pl-30"> 
+                        <div class="header-search">
                             <a class="search-toggle" data-selector=".header-search">
                                 <span class="fas fa-search"></span>
                             </a>
@@ -49,8 +49,11 @@
                             </form>
                         </div>
 
-                        <div class="mini-cart-icon d-none d-xl-block">
-                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <div class="mini-cart-icon">
+                            <a href="#">
+                                <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                                <img src="images/icon/cart.png" alt="cart">
+                            </a>
                         </div>
 
                         <div class="horizontal-bar"></div>
@@ -62,7 +65,7 @@
                         </div>
                     </div>
 
-                    <div class="main-menu">
+                    <div class="main-menu d-none d-md-flex">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About Us</a></li>
@@ -77,33 +80,27 @@
     <!-- header end -->
 
     <!-- slide-bar start -->
-    <div class="fix d-none">
+    <div class="fix">
         <div class="side-info">
-            <button class="side-info-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="side-info-close hamburger-menu in d-flex flex-column justify-content-center mb-30">
+                <span class="icon-bar"><span class="inner"></span></span>
+                <span class="icon-bar"><span class="inner"></span></span>
+                <span class="icon-bar"><span class="inner"></span></span>
+            </div>
 
             <div class="logo mb-30">
-                <a class="standard-logo" href="https://www.devsnews.com/wp/xisen/">
-                    <img src="https://www.devsnews.com/wp/xisen/wp-content/themes/xisen/img/logo/logo-white.png" alt="logo" />
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="logo" />
                 </a>
             </div>
 
-            <div class="mobile-menu"></div>
-
-            <div class="contact-infos mt-30 mb-30">
-                <div class="contact-list mb-30 mt-50">
-                    <h4>Contact Info</h4>
-
-                    <ul>
-                        <li><i class="fal fa-map"></i>12/A, Mirnada City Tower, NYC</li>
-                        <li><i class="fal fa-phone"></i><a href="tel:+876 864 764 764">+876 864 764 764</a></li>
-                        <li><i class="far fa-envelope"></i><a href="mailto:info@webmail.com">info@webmail.com</a></li>
-                    </ul>
-
-                    <div class="xisen_button mt-30">
-                        <a href="#" class="x-btn btn-squ btn-red">Get A Quote</a>
-                    </div>
-                    <div class="sidebar__menu--social"></div>
-                </div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Review</a></li>
+                </ul>
             </div>
         </div>
     </div>
