@@ -1,7 +1,7 @@
 /* Deafult Margin & Padding **/
 /*-- Margin Top --*/
 .mt-5 {
-	margin-top: 5px;
+	margin-top: 5px !important;
 }
 .mt-10 {
 	margin-top: 10px;

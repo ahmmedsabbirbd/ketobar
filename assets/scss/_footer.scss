@@ -14,19 +14,30 @@
         padding-top: 60px;
     }
 
+    .row >[class*="col-6"] {
+
+        @media screen  and (max-width: 480px) { 
+            width: 100% !important;
+        }
+    }
+
     &__widget {
+        margin-bottom: 40px;
 
-        &-menu {
-            gap: 30px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+        &.widget_nav_menu {
 
-            @media screen  and (max-width: 480px) { 
-                align-items: center;
-                flex-direction: column;
+            &.pl-50 {
+                @media screen  and (max-width: 575px) { 
+                    padding-left: 0;
+                }
             }
-        
+
+            .title {
+                color: $white;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 29px;
+            }
 
             ul {
                 gap: 15px;
@@ -34,26 +45,15 @@
                 flex-direction: column;
         
                 li {
-
-                    &:first-child {
-                        margin-bottom: 5px;
-                        
-                        a {
-                            color: $white;
-                            font-size: 24px;
-                            font-weight: 600;
-                            line-height: 29px;
-                        }
-                    }
         
                     a {
-                        display: block;
                         font-size: 16px;
                         font-weight: 500;
                         color: #E2E2E2;
                         font-family: $mon;
                         line-height: 26px;
                         position: relative;
+                        display: inline-block;
                         text-decoration: none;
                         
                         &:before {
@@ -86,8 +86,6 @@
 
             @media screen  and (max-width: 767px) { 
                 max-width: 100%;
-                text-align: center;
-                margin-bottom: 40px;
             }
 
             .logo, .description {
@@ -102,7 +100,7 @@
     &__bottom {
         border-top: 1px solid rgba(231, 231, 231, 0.5);
 
-        &-text {
+        &-copy-right {
 
             a {
                 color: $white;
