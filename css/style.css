@@ -641,6 +641,9 @@ p {
     font-size: 24px;
     font-weight: 600;
     line-height: 29px; }
+    @media screen and (max-width: 767px) {
+      .footer__widget.widget_nav_menu .title {
+        margin-bottom: 15px; } }
   .footer__widget.widget_nav_menu ul {
     gap: 15px;
     display: flex;
