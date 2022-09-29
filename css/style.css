@@ -770,6 +770,9 @@ p {
   position: absolute; }
 .banner__content {
   max-width: 417px; }
+  @media screen and (max-width: 575px) {
+    .banner__content {
+      max-width: 100%; } }
   .banner__content .description p {
     color: #E2E2E2;
     letter-spacing: normal; }

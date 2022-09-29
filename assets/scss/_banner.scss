@@ -32,6 +32,10 @@
     &__content {
         max-width: 417px;
 
+        @media screen  and (max-width: 575px) { 
+            max-width: 100%;
+        }
+
         .description {
                 
             p {
