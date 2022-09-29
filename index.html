@@ -22,9 +22,93 @@
 
 <body class="primary-bg">
 
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <!-- header start -->
+    <header  class="header py-35"> 
+        <div class="container"> 
+            <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                    <div class="logo">
+                        <a class="standard-logo" href="#">
+                            <img src="images/logo/logo.png" alt="logo" />
+                        </a>
+                    </div>
+                </div>
 
+                <div class="col-xl-10 col-lg-10 col-md-9 col-6">
+                    <div class="header-right-info float-end d-md-flex pl-30"> 
+                        <div class="header-search d-none d-xl-block text-right">
+                            <a class="search-toggle" data-selector=".header-search">
+                                <span class="fas fa-search"></span>
+                            </a>
+
+                            <form class="search-box" action="#" method="get">
+                                <div class="form-group d-flex align-items-center">
+                                    <input type="search" name="s" value="" class="search-input" id="search" placeholder="Search">
+                                    <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="mini-cart-icon d-none d-xl-block">
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+
+                        <div class="horizontal-bar"></div>
+                        
+                        <div class="hamburger-menu d-flex flex-column justify-content-center">
+                            <span class="icon-bar"><span class="inner"></span></span>
+                            <span class="icon-bar"><span class="inner"></span></span>
+                            <span class="icon-bar"><span class="inner"></span></span>
+                        </div>
+                    </div>
+
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Review</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- slide-bar start -->
+    <div class="fix d-none">
+        <div class="side-info">
+            <button class="side-info-close"><i class="fa-solid fa-xmark"></i></button>
+
+            <div class="logo mb-30">
+                <a class="standard-logo" href="https://www.devsnews.com/wp/xisen/">
+                    <img src="https://www.devsnews.com/wp/xisen/wp-content/themes/xisen/img/logo/logo-white.png" alt="logo" />
+                </a>
+            </div>
+
+            <div class="mobile-menu"></div>
+
+            <div class="contact-infos mt-30 mb-30">
+                <div class="contact-list mb-30 mt-50">
+                    <h4>Contact Info</h4>
+
+                    <ul>
+                        <li><i class="fal fa-map"></i>12/A, Mirnada City Tower, NYC</li>
+                        <li><i class="fal fa-phone"></i><a href="tel:+876 864 764 764">+876 864 764 764</a></li>
+                        <li><i class="far fa-envelope"></i><a href="mailto:info@webmail.com">info@webmail.com</a></li>
+                    </ul>
+
+                    <div class="xisen_button mt-30">
+                        <a href="#" class="x-btn btn-squ btn-red">Get A Quote</a>
+                    </div>
+                    <div class="sidebar__menu--social"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <!-- slide-bar end -->
 
     <!-- client starts -->
     <section class="client py-60">
