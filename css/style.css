@@ -433,6 +433,43 @@ p {
   height: 3px;
   margin-top: 3px; }
 
+/** client  **/
+.client {
+  overflow: hidden;
+  background: linear-gradient(91.44deg, rgba(217, 217, 217, 0.15) 19.57%, rgba(228, 228, 228, 0.15) 80.96%); }
+  @media screen and (max-width: 767px) {
+    .client {
+      padding: 50px 0; } }
+  @media screen and (max-width: 575px) {
+    .client {
+      padding: 40px 0; } }
+  .client__item {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .client__item-media img {
+      width: 100%;
+      height: auto;
+      transition: all 0.3s ease; }
+    .client__item:any-link:hover .client__item-media img {
+      transform: scale(1.1); }
+
+.slick-list {
+  margin-left: -15px;
+  margin-right: -15px; }
+  .slick-list .slick-track {
+    height: 100%;
+    display: table !important; }
+    .slick-list .slick-track .slick-slide {
+      height: initial;
+      padding-left: 15px;
+      padding-right: 15px;
+      vertical-align: middle;
+      float: none !important;
+      display: table-cell !important; }
+
 /** Keto-bar  **/
 .keto-bar {
   background-color: #9B5D31; }
