@@ -61,7 +61,7 @@
                         @include transition(all .3s ease);
                     }
                     
-                    &:hover, &:focus {
+                    &:hover {
                         
                         &:before {
                             @include transform(scaleX(1));
@@ -347,7 +347,7 @@
                             @include transition(all .3s ease);
                         }
                         
-                        &:hover, &:focus {
+                        &:hover {
                             
                             &:before {
                                 @include transform(scaleX(1));

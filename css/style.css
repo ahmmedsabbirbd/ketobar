@@ -451,7 +451,7 @@ p {
           -ms-transition: all 0.3s ease;
           -o-transition: all 0.3s ease;
           transition: all 0.3s ease; }
-        .header .main-menu ul li a:hover:before, .header .main-menu ul li a:focus:before {
+        .header .main-menu ul li a:hover:before {
           -webkit-transform: scaleX(1);
           -moz-transform: scaleX(1);
           -ms-transform: scaleX(1);
@@ -725,7 +725,7 @@ p {
           -ms-transition: all 0.3s ease;
           -o-transition: all 0.3s ease;
           transition: all 0.3s ease; }
-        .fix .side-info .main-menu ul li a:hover:before, .fix .side-info .main-menu ul li a:focus:before {
+        .fix .side-info .main-menu ul li a:hover:before {
           -webkit-transform: scaleX(1);
           -moz-transform: scaleX(1);
           -ms-transform: scaleX(1);
