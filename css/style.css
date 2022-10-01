@@ -457,6 +457,12 @@ p {
           -ms-transform: scaleX(1);
           -o-transform: scaleX(1);
           transform: scaleX(1); }
+      .header .main-menu ul li.active a:before {
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        transform: scaleX(1); }
 
 .header-right-info {
   gap: 24px; }
@@ -725,6 +731,12 @@ p {
           -ms-transform: scaleX(1);
           -o-transform: scaleX(1);
           transform: scaleX(1); }
+      .fix .side-info .main-menu ul li.active a:before {
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        transform: scaleX(1); }
 
 .offcanvas-overlay {
   left: 0;

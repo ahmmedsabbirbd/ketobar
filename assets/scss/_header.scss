@@ -68,6 +68,13 @@
                         }
                     }
                 }
+                
+                &.active {
+                    
+                    a:before {
+                        @include transform(scaleX(1));
+                    }
+                }
             }
         }
     }
@@ -345,6 +352,13 @@
                             &:before {
                                 @include transform(scaleX(1));
                             }
+                        }
+                    }
+                    
+                    &.active {
+                        
+                        a:before {
+                            @include transform(scaleX(1));
                         }
                     }
                 }
